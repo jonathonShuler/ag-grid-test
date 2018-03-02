@@ -1,3 +1,5 @@
+agGrid.initialiseAgGridWithAngular1(angular);
+
 angular
-  .module('ag-app', []);
+  .module('ag-app', ['agGrid']);
   
